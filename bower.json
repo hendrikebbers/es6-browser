@@ -1,0 +1,30 @@
+{
+  "name": "es6-browser",
+  "version": "0.0.1",
+  "main": "./dist/es6-classes.js",
+  "authors": [
+    "Hendrik Ebbers <hendrik.ebbers@canoo.com>"
+  ],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "ignore": [
+    "**/.*",
+    "lib",
+    "src",
+    "test",
+    "opendolphin",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json",
+    "sauce.launchers.js",
+    "sauce-template.json",
+    "sonar-project.properties"
+  ],
+  "dependencies": {
+    "babel-standalone": "^6.19.0"
+  }
+}
